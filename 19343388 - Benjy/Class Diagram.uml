@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EZjLkM-NEfCvJOe5_u-EEg" name="Class Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_EpaMgM-NEfCvJOe5_u-EEg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z28fcM-NEfCvJOe5_u-EEg" name="SocietyApp">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Gm00EM-QEfCvJOe5_u-EEg" name="societydatabase" type="_gNiacM-OEfCvJOe5_u-EEg" association="_Gmv7kM-QEfCvJOe5_u-EEg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MgGUkM-QEfCvJOe5_u-EEg" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MgGUkc-QEfCvJOe5_u-EEg" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_6twUUM-PEfCvJOe5_u-EEg" client="_z28fcM-NEfCvJOe5_u-EEg" supplier="_Se4SEM-OEfCvJOe5_u-EEg" contract="_Se4SEM-OEfCvJOe5_u-EEg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_-42bwM-PEfCvJOe5_u-EEg" client="_z28fcM-NEfCvJOe5_u-EEg" supplier="_Yibv8M-OEfCvJOe5_u-EEg" contract="_Yibv8M-OEfCvJOe5_u-EEg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_DGv_kM-QEfCvJOe5_u-EEg" client="_z28fcM-NEfCvJOe5_u-EEg" supplier="_Ziv9cM-OEfCvJOe5_u-EEg" contract="_Ziv9cM-OEfCvJOe5_u-EEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Se4SEM-OEfCvJOe5_u-EEg" name="JoinSociety">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_peOtQM-PEfCvJOe5_u-EEg" name="EnrollSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IjBJEM-SEfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Yibv8M-OEfCvJOe5_u-EEg" name="LeaveSociety">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uZ8ucM-REfCvJOe5_u-EEg" name="LeaveSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_wtuH4M-REfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Ziv9cM-OEfCvJOe5_u-EEg" name="RequestCreateSociety">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_P_ZicM-PEfCvJOe5_u-EEg" name="RequestInitiateSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_AYA2gM-SEfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gNiacM-OEfCvJOe5_u-EEg" name="SocietyDatabase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Nru54s-TEfCvJOe5_u-EEg" name="society" type="_Jo7LwM-TEfCvJOe5_u-EEg" aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nrvg8M-TEfCvJOe5_u-EEg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nrvg8c-TEfCvJOe5_u-EEg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Tj8qcs-TEfCvJOe5_u-EEg" name="society" type="_Jo7LwM-TEfCvJOe5_u-EEg" aggregation="composite" association="_Tj8DYM-TEfCvJOe5_u-EEg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m4CKQM-TEfCvJOe5_u-EEg" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m4CKQc-TEfCvJOe5_u-EEg" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_na4gAM-QEfCvJOe5_u-EEg" name="EnrollSociety"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ow2NYM-QEfCvJOe5_u-EEg" name="LeaveSociety"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sJXoYM-QEfCvJOe5_u-EEg" name="RequestInitiateSociety"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Gmv7kM-QEfCvJOe5_u-EEg" memberEnd="_Gm00EM-QEfCvJOe5_u-EEg _Gm1bIM-QEfCvJOe5_u-EEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gmzl8M-QEfCvJOe5_u-EEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gm0NAM-QEfCvJOe5_u-EEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gm1bIM-QEfCvJOe5_u-EEg" name="societyapp" type="_z28fcM-NEfCvJOe5_u-EEg" association="_Gmv7kM-QEfCvJOe5_u-EEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_iuInkM-REfCvJOe5_u-EEg" name="DataType1"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_2g3LMM-REfCvJOe5_u-EEg" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Jo7LwM-TEfCvJOe5_u-EEg" name="Society">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zPNF0M-UEfCvJOe5_u-EEg" name="societyID" type="_5r3nQM-UEfCvJOe5_u-EEg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-F7-0M-UEfCvJOe5_u-EEg" name="societyName" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EkNp0M-VEfCvJOe5_u-EEg" name="addMember">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HGTzIM-VEfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eMoOcM-VEfCvJOe5_u-EEg" name="removeMember">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_opUPwM-VEfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Tj8DYM-TEfCvJOe5_u-EEg" memberEnd="_Tj8qcs-TEfCvJOe5_u-EEg _Tj9Rgs-TEfCvJOe5_u-EEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tj8qcM-TEfCvJOe5_u-EEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tj8qcc-TEfCvJOe5_u-EEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Tj9Rgs-TEfCvJOe5_u-EEg" name="societydatabase" type="_gNiacM-OEfCvJOe5_u-EEg" association="_Tj8DYM-TEfCvJOe5_u-EEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_48kGsM-TEfCvJOe5_u-EEg" name="Interaction12"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_5r3nQM-UEfCvJOe5_u-EEg" name="Integer"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xDN58M-VEfCvJOe5_u-EEg" name="Student">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1xtpYc-VEfCvJOe5_u-EEg" name="society" type="_Jo7LwM-TEfCvJOe5_u-EEg" association="_1xtCUM-VEfCvJOe5_u-EEg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4VSZYM-VEfCvJOe5_u-EEg" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4VTAcM-VEfCvJOe5_u-EEg" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cFPOsM-WEfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fUJasM-WEfCvJOe5_u-EEg" name="name" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iXeBwM-WEfCvJOe5_u-EEg" name="email" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lWbGMM-WEfCvJOe5_u-EEg" name="EnrollSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sVo7EM-WEfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ow_voM-WEfCvJOe5_u-EEg" name="LeaveSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uUqMgM-WEfCvJOe5_u-EEg" name="StudentLogin" type="_2g3LMM-REfCvJOe5_u-EEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1xtCUM-VEfCvJOe5_u-EEg" memberEnd="_1xtpYc-VEfCvJOe5_u-EEg _1xtpZM-VEfCvJOe5_u-EEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1xtCUc-VEfCvJOe5_u-EEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1xtpYM-VEfCvJOe5_u-EEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1xtpZM-VEfCvJOe5_u-EEg" name="student" type="_xDN58M-VEfCvJOe5_u-EEg" association="_1xtCUM-VEfCvJOe5_u-EEg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4mXiUM-VEfCvJOe5_u-EEg" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4mXiUc-VEfCvJOe5_u-EEg" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
