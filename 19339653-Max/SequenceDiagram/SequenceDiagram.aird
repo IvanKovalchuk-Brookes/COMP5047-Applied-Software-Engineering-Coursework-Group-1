@@ -41,3 +41,4 @@
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.uml.diagram.communication/description/papyrus_communication.odesign#//@ownedViewpoints[name='CommunicationDiagram']"/>
   </ownedViews>
 </viewpoint:DAnalysis>
+
