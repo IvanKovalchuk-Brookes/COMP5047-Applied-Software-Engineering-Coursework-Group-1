@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oHFBYMrfEfCsb-c4a8eqWA" name="ClassDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_oKN08MrfEfCsb-c4a8eqWA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1oqhoMrgEfCsb-c4a8eqWA" name="SocietyService">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_N2NjYsrkEfCsb-c4a8eqWA" name="societydatabase" type="_2P79AMrgEfCsb-c4a8eqWA" association="_N2MVQMrkEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P042kMrkEfCsb-c4a8eqWA" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P05doMrkEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_amPgUMrkEfCsb-c4a8eqWA" client="_1oqhoMrgEfCsb-c4a8eqWA" supplier="_3HVfEMrgEfCsb-c4a8eqWA" contract="_3HVfEMrgEfCsb-c4a8eqWA"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ddpLQMrkEfCsb-c4a8eqWA" client="_1oqhoMrgEfCsb-c4a8eqWA" supplier="_3aLikMrgEfCsb-c4a8eqWA" contract="_3aLikMrgEfCsb-c4a8eqWA"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gTFHUMrkEfCsb-c4a8eqWA" client="_1oqhoMrgEfCsb-c4a8eqWA" supplier="_22oJkMrgEfCsb-c4a8eqWA" contract="_22oJkMrgEfCsb-c4a8eqWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2P79AMrgEfCsb-c4a8eqWA" name="SocietyDatabase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_I60AYsrkEfCsb-c4a8eqWA" name="society" type="_AiJMoMrhEfCsb-c4a8eqWA" aggregation="composite" association="_I6yyQMrkEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lm-rsMrkEfCsb-c4a8eqWA" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lm-rscrkEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Uo2cMMrhEfCsb-c4a8eqWA" name="SearchSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_h8JeQMrhEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y56BsMrhEfCsb-c4a8eqWA" name="SearchMember">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lzduEMrhEfCsb-c4a8eqWA" name="MemberID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Zx-5MMrhEfCsb-c4a8eqWA" name="CreateSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqzHkMrhEfCsb-c4a8eqWA" name="SocietyLeaderID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bHALYMrhEfCsb-c4a8eqWA" name="DeleteSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_r0mxIMrhEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cFJ1sMrhEfCsb-c4a8eqWA" name="UpdateSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uX8QkMrhEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dVCJMMrhEfCsb-c4a8eqWA" name="AddMember">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ywSw4MrhEfCsb-c4a8eqWA" name="" type="_BHIwEMrhEfCsb-c4a8eqWA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eJS3sMrhEfCsb-c4a8eqWA" name="SearchLeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1Ot7IMrhEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-5TxIMrhEfCsb-c4a8eqWA" name="" type="_A0YMIMrhEfCsb-c4a8eqWA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_22oJkMrgEfCsb-c4a8eqWA" name="UpdateSociety">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_I_YpQMriEfCsb-c4a8eqWA" name="UpdateSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_I_YpQcriEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MACW0MriEfCsb-c4a8eqWA" name="SetSocietyLeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OY-kIMriEfCsb-c4a8eqWA" name="SocietyLeaderID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SZWpUMriEfCsb-c4a8eqWA" name="ApproveSocietyTermination">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VYSfoMriEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T6tHUMriEfCsb-c4a8eqWA" name="ApproveLeaderChange">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XuTUwMriEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_a6AbwMriEfCsb-c4a8eqWA" name="SocietyLeaderID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_3HVfEMrgEfCsb-c4a8eqWA" name="CreateSociety">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_B_LV4MriEfCsb-c4a8eqWA" name="CreateSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_B_LV4criEfCsb-c4a8eqWA" name="SocietyLeaderID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_3aLikMrgEfCsb-c4a8eqWA" name="DeleteSociety">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hXmKQMriEfCsb-c4a8eqWA" name="DeleteSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hXmKQcriEfCsb-c4a8eqWA" name="SocietyID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AM2SEMrhEfCsb-c4a8eqWA" name="UnionOfficer">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0sgJcMriEfCsb-c4a8eqWA" name="OfficerID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2s0bYMriEfCsb-c4a8eqWA" name="OfficerName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C8p_4srkEfCsb-c4a8eqWA" name="society" type="_AiJMoMrhEfCsb-c4a8eqWA" association="_C8oxwMrkEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FJrREMrkEfCsb-c4a8eqWA" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FJrREcrkEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AiJMoMrhEfCsb-c4a8eqWA" name="Society">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6bo2gMriEfCsb-c4a8eqWA" name="SocietyID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8eamkMriEfCsb-c4a8eqWA" name="SocietyName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-iO4cMriEfCsb-c4a8eqWA" name="JoinSociety">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RgSd4MrjEfCsb-c4a8eqWA" name="" type="_BHIwEMrhEfCsb-c4a8eqWA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__8vHkMriEfCsb-c4a8eqWA" name="ChangeLeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UPAG4MrjEfCsb-c4a8eqWA" name="" type="_A0YMIMrhEfCsb-c4a8eqWA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_A0YMIMrhEfCsb-c4a8eqWA" name="SocietyLeader">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EulF8MrjEfCsb-c4a8eqWA" name="SocietyLeaderID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IG00IMrjEfCsb-c4a8eqWA" name="SocietyLeaderName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w7ti8srjEfCsb-c4a8eqWA" name="society" type="_AiJMoMrhEfCsb-c4a8eqWA" association="_w7mOMMrjEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zM3tQMrjEfCsb-c4a8eqWA" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zM47YMrjEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BJUPcMrjEfCsb-c4a8eqWA" name="RequestSocietyTermination">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WIdi4MrjEfCsb-c4a8eqWA" name="" type="_AiJMoMrhEfCsb-c4a8eqWA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CZHqcMrjEfCsb-c4a8eqWA" name="RequestLeaderChange">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Xkxv4MrjEfCsb-c4a8eqWA" name="SocietyLeaderID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BHIwEMrhEfCsb-c4a8eqWA" name="SocietyMember">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NKdGEMrjEfCsb-c4a8eqWA" name="MembershipID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O4J-AMrjEfCsb-c4a8eqWA" name="MemberName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_11lb8srjEfCsb-c4a8eqWA" name="society" type="_AiJMoMrhEfCsb-c4a8eqWA" association="_11kN0MrjEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8XUqoMrjEfCsb-c4a8eqWA" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8XWf0MrjEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w7mOMMrjEfCsb-c4a8eqWA" memberEnd="_w7ti8srjEfCsb-c4a8eqWA _w7vYIsrjEfCsb-c4a8eqWA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w7ti8MrjEfCsb-c4a8eqWA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w7ti8crjEfCsb-c4a8eqWA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w7vYIsrjEfCsb-c4a8eqWA" name="societyleader" type="_A0YMIMrhEfCsb-c4a8eqWA" association="_w7mOMMrjEfCsb-c4a8eqWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_11kN0MrjEfCsb-c4a8eqWA" memberEnd="_11lb8srjEfCsb-c4a8eqWA _11mDAsrjEfCsb-c4a8eqWA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_11lb8MrjEfCsb-c4a8eqWA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_11lb8crjEfCsb-c4a8eqWA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_11mDAsrjEfCsb-c4a8eqWA" name="societymember" type="_BHIwEMrhEfCsb-c4a8eqWA" association="_11kN0MrjEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7Q0VkMrjEfCsb-c4a8eqWA" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7Q0VkcrjEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_C8oxwMrkEfCsb-c4a8eqWA" memberEnd="_C8p_4srkEfCsb-c4a8eqWA _C8qm8srkEfCsb-c4a8eqWA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8p_4MrkEfCsb-c4a8eqWA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C8p_4crkEfCsb-c4a8eqWA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C8qm8srkEfCsb-c4a8eqWA" name="unionofficer" type="_AM2SEMrhEfCsb-c4a8eqWA" association="_C8oxwMrkEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DotNkMrkEfCsb-c4a8eqWA" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DotNkcrkEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_I6yyQMrkEfCsb-c4a8eqWA" memberEnd="_I60AYsrkEfCsb-c4a8eqWA _I60ncsrkEfCsb-c4a8eqWA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I60AYMrkEfCsb-c4a8eqWA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I60AYcrkEfCsb-c4a8eqWA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_I60ncsrkEfCsb-c4a8eqWA" name="societydatabase" type="_2P79AMrgEfCsb-c4a8eqWA" association="_I6yyQMrkEfCsb-c4a8eqWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LWL2oMrkEfCsb-c4a8eqWA" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LWMdsMrkEfCsb-c4a8eqWA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N2MVQMrkEfCsb-c4a8eqWA" memberEnd="_N2NjYsrkEfCsb-c4a8eqWA _N2OKcsrkEfCsb-c4a8eqWA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N2NjYMrkEfCsb-c4a8eqWA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N2NjYcrkEfCsb-c4a8eqWA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N2OKcsrkEfCsb-c4a8eqWA" name="societyservice" type="_1oqhoMrgEfCsb-c4a8eqWA" association="_N2MVQMrkEfCsb-c4a8eqWA"/>
+  </packagedElement>
+</uml:Model>
