@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yQ0dEMrVEfCsb-c4a8eqWA" name="Login">
+  <packageImport xmi:type="uml:PackageImport">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" name="UNION OFFICER PLATFORM">
+    <nestedClassifier xmi:type="uml:Interface" name="Login"/>
+    <nestedClassifier xmi:type="uml:Interface" name="EditSociety"/>
+    <nestedClassifier xmi:type="uml:Interface" name="EditEvent"/>
+    <nestedClassifier xmi:type="uml:Interface" name="EditMembership"/>
+    <nestedClassifier xmi:type="uml:Interface" name="GetSessionToken"/>
+    <packagedElement xmi:type="uml:Component" name="CloudConnectionManger">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CBLaoMraEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/CloudConnectionManger" supplier="//UNION%20OFFICER%20PLATFORM/GetSessionToken" contract="//UNION%20OFFICER%20PLATFORM/GetSessionToken"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gtQQ8MrbEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/CloudConnectionManger" supplier="//UNION%20OFFICER%20PLATFORM/Login" contract="//UNION%20OFFICER%20PLATFORM/Login"/>
+      <packagedElement xmi:type="uml:Usage" client="//UNION%20OFFICER%20PLATFORM/CloudConnectionManger" supplier="//Authentication"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="UnionMembershipManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_wK5OMMrcEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/UnionMembershipManager" supplier="//UNION%20OFFICER%20PLATFORM/EditMembership" contract="//UNION%20OFFICER%20PLATFORM/EditMembership"/>
+      <packagedElement xmi:type="uml:Usage" client="//UNION%20OFFICER%20PLATFORM/UnionMembershipManager" supplier="//AddMembership"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_5dbmAMrbEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/UnionMembershipManager" supplier="//UNION%20OFFICER%20PLATFORM/GetSessionToken"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="EventManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Ivo2sMraEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/EventManager" supplier="//UNION%20OFFICER%20PLATFORM/EditEvent" contract="//UNION%20OFFICER%20PLATFORM/EditEvent"/>
+      <packagedElement xmi:type="uml:Usage" client="//UNION%20OFFICER%20PLATFORM/EventManager" supplier="//AddEvent"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_71LggMrbEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/EventManager" supplier="//UNION%20OFFICER%20PLATFORM/GetSessionToken"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="SocietyManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JhE6sMraEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/SocietyManager" supplier="//UNION%20OFFICER%20PLATFORM/EditSociety" contract="//UNION%20OFFICER%20PLATFORM/EditSociety"/>
+      <packagedElement xmi:type="uml:Usage" client="//UNION%20OFFICER%20PLATFORM/SocietyManager" supplier="//AddSociety"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Uv6xsMraEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/SocietyManager" supplier="//UNION%20OFFICER%20PLATFORM/GetSessionToken"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="UnionOfficerGUI">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_p_imkMrZEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/UnionOfficerGUI" supplier="//UNION%20OFFICER%20PLATFORM/EditSociety"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_v5WSkMrZEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/UnionOfficerGUI" supplier="//UNION%20OFFICER%20PLATFORM/EditEvent"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_xxb1kMrZEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/UnionOfficerGUI" supplier="//UNION%20OFFICER%20PLATFORM/EditMembership"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_kFGWgMrbEfCsb-c4a8eqWA" client="//UNION%20OFFICER%20PLATFORM/UnionOfficerGUI" supplier="//UNION%20OFFICER%20PLATFORM/Login"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" name="UnionSubSystem">
+    <nestedClassifier xmi:type="uml:Interface" name="CheckPermission"/>
+    <nestedClassifier xmi:type="uml:Interface" name="Notify"/>
+    <packagedElement xmi:type="uml:Component" name="AuthenticationManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_O0GooMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/AuthenticationManager" supplier="//Authenticate" contract="//Authenticate"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_sC1MoMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/AuthenticationManager" supplier="//UnionSubSystem/CheckPermission" contract="//UnionSubSystem/CheckPermission"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="UnionMembershipManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MysxkMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/UnionMembershipManager" supplier="//AddMembership.1" contract="//AddMembership.1"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DQmTwMrdEfCsb-c4a8eqWA" client="//UnionSubSystem/UnionMembershipManager" supplier="//UnionSubSystem/CheckPermission"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="EventManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MA5hMMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/EventManager" supplier="//AddEvent.1" contract="//AddEvent.1"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Z7U0sMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/EventManager" supplier="//UnionSubSystem/Notify" contract="//UnionSubSystem/Notify"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_8_IVsMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/EventManager" supplier="//UnionSubSystem/CheckPermission"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="SocietyManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_J8lgEMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/SocietyManager" supplier="//AddSociety.1" contract="//AddSociety.1"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_dAxisMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/SocietyManager" supplier="//UnionSubSystem/Notify" contract="//UnionSubSystem/Notify"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_4n-vQMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/SocietyManager" supplier="//UnionSubSystem/CheckPermission"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" name="NotificationManager">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_TefUIMrcEfCsb-c4a8eqWA" client="//UnionSubSystem/NotificationManager" supplier="//UnionSubSystem/Notify"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" name="Authentication"/>
+  <packagedElement xmi:type="uml:Interface" name="Authenticate"/>
+  <packagedElement xmi:type="uml:Interface" name="AddMembership"/>
+  <packagedElement xmi:type="uml:Interface" name="AddMembership"/>
+  <packagedElement xmi:type="uml:Interface" name="AddEvent"/>
+  <packagedElement xmi:type="uml:Interface" name="AddEvent"/>
+  <packagedElement xmi:type="uml:Interface" name="AddSociety"/>
+  <packagedElement xmi:type="uml:Interface" name="AddSociety"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_vnimUMrYEfCsb-c4a8eqWA" client="//Authentication" supplier="//Authenticate"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_xINu4MrYEfCsb-c4a8eqWA" client="//AddMembership" supplier="//AddMembership.1"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_yDVTUMrYEfCsb-c4a8eqWA" client="//AddEvent" supplier="//AddEvent.1"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_y-Kj4MrYEfCsb-c4a8eqWA" client="//AddSociety" supplier="//AddSociety.1"/>
+</uml:Model>
