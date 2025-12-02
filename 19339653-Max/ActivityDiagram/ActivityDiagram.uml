@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0R3DYM-ZEfCLWZxR2iGQGw" name="ActivityDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0bIUIM-ZEfCLWZxR2iGQGw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_2rZGkM-ZEfCLWZxR2iGQGw" name="Approval of Society Termination" node="_44f3UM-ZEfCLWZxR2iGQGw _7yEFcM-ZEfCLWZxR2iGQGw _BIuBEM-aEfCLWZxR2iGQGw _C9ntMM-aEfCLWZxR2iGQGw _QkwRQM-aEfCLWZxR2iGQGw _YoGcoM-aEfCLWZxR2iGQGw _AHzhMM-bEfCLWZxR2iGQGw _It3_IM-bEfCLWZxR2iGQGw _OZaloM-bEfCLWZxR2iGQGw _O6boAM-bEfCLWZxR2iGQGw _TvVhcM-bEfCLWZxR2iGQGw _WPqJIM-bEfCLWZxR2iGQGw _ecBtoM-bEfCLWZxR2iGQGw _wew6UM-bEfCLWZxR2iGQGw _x_rTcM-bEfCLWZxR2iGQGw" group="_6G7ZUM-ZEfCLWZxR2iGQGw _6gQfUM-ZEfCLWZxR2iGQGw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LzKKgM-aEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" source="_BIuBEM-aEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NJnnIM-aEfCLWZxR2iGQGw" name="Yes" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_BIuBEM-aEfCLWZxR2iGQGw" source="_C9ntMM-aEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OGCMEM-aEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_C9ntMM-aEfCLWZxR2iGQGw" source="_7yEFcM-ZEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SCZT8M-aEfCLWZxR2iGQGw" name="No" target="_QkwRQM-aEfCLWZxR2iGQGw" source="_C9ntMM-aEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_b884kM-aEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_7yEFcM-ZEfCLWZxR2iGQGw" source="_YoGcoM-aEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CdLdIM-bEfCLWZxR2iGQGw" target="_QkwRQM-aEfCLWZxR2iGQGw" source="_AHzhMM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DTgBIM-bEfCLWZxR2iGQGw" target="_YoGcoM-aEfCLWZxR2iGQGw" source="_44f3UM-ZEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Es5dAM-bEfCLWZxR2iGQGw" target="_YoGcoM-aEfCLWZxR2iGQGw" source="_QkwRQM-aEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KONwgM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_It3_IM-bEfCLWZxR2iGQGw" source="_BIuBEM-aEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jsrH4M-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_ecBtoM-bEfCLWZxR2iGQGw" source="_O6boAM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kSg_4M-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_ecBtoM-bEfCLWZxR2iGQGw" source="_OZaloM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_n3RgEM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_TvVhcM-bEfCLWZxR2iGQGw" source="_ecBtoM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qYZZAM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_O6boAM-bEfCLWZxR2iGQGw" source="_It3_IM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_q1AcgM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw" target="_OZaloM-bEfCLWZxR2iGQGw" source="_It3_IM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3moU4M-bEfCLWZxR2iGQGw" target="_wew6UM-bEfCLWZxR2iGQGw" source="_WPqJIM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4RG1QM-bEfCLWZxR2iGQGw" target="_wew6UM-bEfCLWZxR2iGQGw" source="_TvVhcM-bEfCLWZxR2iGQGw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5Bty0M-bEfCLWZxR2iGQGw" target="_x_rTcM-bEfCLWZxR2iGQGw" source="_wew6UM-bEfCLWZxR2iGQGw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_6G7ZUM-ZEfCLWZxR2iGQGw" name="Union Officer" node="_7yEFcM-ZEfCLWZxR2iGQGw _BIuBEM-aEfCLWZxR2iGQGw _C9ntMM-aEfCLWZxR2iGQGw _YoGcoM-aEfCLWZxR2iGQGw _It3_IM-bEfCLWZxR2iGQGw _OZaloM-bEfCLWZxR2iGQGw _O6boAM-bEfCLWZxR2iGQGw _TvVhcM-bEfCLWZxR2iGQGw _ecBtoM-bEfCLWZxR2iGQGw" edge="_LzKKgM-aEfCLWZxR2iGQGw _NJnnIM-aEfCLWZxR2iGQGw _OGCMEM-aEfCLWZxR2iGQGw _b884kM-aEfCLWZxR2iGQGw _KONwgM-bEfCLWZxR2iGQGw _jsrH4M-bEfCLWZxR2iGQGw _kSg_4M-bEfCLWZxR2iGQGw _n3RgEM-bEfCLWZxR2iGQGw _qYZZAM-bEfCLWZxR2iGQGw _q1AcgM-bEfCLWZxR2iGQGw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_6gQfUM-ZEfCLWZxR2iGQGw" name="Society Leader" node="_QkwRQM-aEfCLWZxR2iGQGw _WPqJIM-bEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_44f3UM-ZEfCLWZxR2iGQGw" name="UnionOfficer" outgoing="_DTgBIM-bEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7yEFcM-ZEfCLWZxR2iGQGw" name="Approve Termination" incoming="_b884kM-aEfCLWZxR2iGQGw" outgoing="_OGCMEM-aEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BIuBEM-aEfCLWZxR2iGQGw" name="Society Removed from website" incoming="_NJnnIM-aEfCLWZxR2iGQGw" outgoing="_LzKKgM-aEfCLWZxR2iGQGw _KONwgM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_C9ntMM-aEfCLWZxR2iGQGw" name="" incoming="_OGCMEM-aEfCLWZxR2iGQGw" outgoing="_NJnnIM-aEfCLWZxR2iGQGw _SCZT8M-aEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QkwRQM-aEfCLWZxR2iGQGw" name="Request Termination" incoming="_SCZT8M-aEfCLWZxR2iGQGw _CdLdIM-bEfCLWZxR2iGQGw" outgoing="_Es5dAM-bEfCLWZxR2iGQGw" inPartition="_6gQfUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_YoGcoM-aEfCLWZxR2iGQGw" name="" incoming="_DTgBIM-bEfCLWZxR2iGQGw _Es5dAM-bEfCLWZxR2iGQGw" outgoing="_b884kM-aEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_AHzhMM-bEfCLWZxR2iGQGw" name="Society Leader" outgoing="_CdLdIM-bEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_It3_IM-bEfCLWZxR2iGQGw" name="" incoming="_KONwgM-bEfCLWZxR2iGQGw" outgoing="_qYZZAM-bEfCLWZxR2iGQGw _q1AcgM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OZaloM-bEfCLWZxR2iGQGw" name="Store society data" incoming="_q1AcgM-bEfCLWZxR2iGQGw" outgoing="_kSg_4M-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_O6boAM-bEfCLWZxR2iGQGw" name="Society deleted" incoming="_qYZZAM-bEfCLWZxR2iGQGw" outgoing="_jsrH4M-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TvVhcM-bEfCLWZxR2iGQGw" name="Notify officer" incoming="_n3RgEM-bEfCLWZxR2iGQGw" outgoing="_4RG1QM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WPqJIM-bEfCLWZxR2iGQGw" name="Notify Leader" outgoing="_3moU4M-bEfCLWZxR2iGQGw" inPartition="_6gQfUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_ecBtoM-bEfCLWZxR2iGQGw" name="" incoming="_jsrH4M-bEfCLWZxR2iGQGw _kSg_4M-bEfCLWZxR2iGQGw" outgoing="_n3RgEM-bEfCLWZxR2iGQGw" inPartition="_6G7ZUM-ZEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_wew6UM-bEfCLWZxR2iGQGw" name="" incoming="_3moU4M-bEfCLWZxR2iGQGw _4RG1QM-bEfCLWZxR2iGQGw" outgoing="_5Bty0M-bEfCLWZxR2iGQGw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_x_rTcM-bEfCLWZxR2iGQGw" name="End" incoming="_5Bty0M-bEfCLWZxR2iGQGw"/>
+  </packagedElement>
+</uml:Model>
