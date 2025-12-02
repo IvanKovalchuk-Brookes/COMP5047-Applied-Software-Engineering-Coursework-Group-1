@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__tgHoM-WEfCmh5oOOSmsdw" name="UseCase">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="__7xNIM-WEfCmh5oOOSmsdw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_X6-_UM-XEfCmh5oOOSmsdw" name="Union Management System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iYW9IM-XEfCmh5oOOSmsdw" name="Delete Event"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_p1fdEM-XEfCmh5oOOSmsdw" name="EditEvent"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rT4GoM-XEfCmh5oOOSmsdw" name="CreateEvent"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_spenoM-XEfCmh5oOOSmsdw" name="ApplyToBeCandidate"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uIyeQM-XEfCmh5oOOSmsdw" name="VoteForCandidate"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ubL10M-XEfCmh5oOOSmsdw" name="CreateStudentUnion"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_u2FpIM-XEfCmh5oOOSmsdw" name="UpdateUnion"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zLfjIM-XEfCmh5oOOSmsdw" name="UpdateSociety"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zngwwM-XEfCmh5oOOSmsdw" name="DeleteSociety"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0FLkMM-XEfCmh5oOOSmsdw" name="CreateSociety"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AU6QcM-YEfCmh5oOOSmsdw" name="DeleteStudentUnion"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_QHaf4M-YEfCmh5oOOSmsdw" name="&lt;include>" client="_rT4GoM-XEfCmh5oOOSmsdw" supplier="_p1fdEM-XEfCmh5oOOSmsdw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_VU4qUM-YEfCmh5oOOSmsdw" name="&lt;extend>" client="_iYW9IM-XEfCmh5oOOSmsdw" supplier="_p1fdEM-XEfCmh5oOOSmsdw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_eBZHcM-YEfCmh5oOOSmsdw" name="&lt;extend>" client="_u2FpIM-XEfCmh5oOOSmsdw" supplier="_ubL10M-XEfCmh5oOOSmsdw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_jb198M-YEfCmh5oOOSmsdw" name="&lt;extend>" client="_uIyeQM-XEfCmh5oOOSmsdw" supplier="_u2FpIM-XEfCmh5oOOSmsdw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_m2W9AM-YEfCmh5oOOSmsdw" name="&lt;extend>" client="_AU6QcM-YEfCmh5oOOSmsdw" supplier="_u2FpIM-XEfCmh5oOOSmsdw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_q9RIAM-YEfCmh5oOOSmsdw" name="&lt;include>" client="_spenoM-XEfCmh5oOOSmsdw" supplier="_u2FpIM-XEfCmh5oOOSmsdw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_-Gie8M-YEfCmh5oOOSmsdw" name="&lt;extend>" client="_zngwwM-XEfCmh5oOOSmsdw" supplier="_zLfjIM-XEfCmh5oOOSmsdw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_D2fEUM-ZEfCmh5oOOSmsdw" name="&lt;include>" client="_0FLkMM-XEfCmh5oOOSmsdw" supplier="_zLfjIM-XEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aLaJ0M-XEfCmh5oOOSmsdw" name="Union Officer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_cAussM-XEfCmh5oOOSmsdw" name="Student"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_e3JgMM-XEfCmh5oOOSmsdw" name="Society Leader"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XHtS0M-YEfCmh5oOOSmsdw" memberEnd="_XHwWIc-YEfCmh5oOOSmsdw _XHyLUM-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XHvvEM-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHwWIM-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XHwWIc-YEfCmh5oOOSmsdw" name="editevent" type="_p1fdEM-XEfCmh5oOOSmsdw" association="_XHtS0M-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XHyLUM-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_XHtS0M-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X9lK4M-YEfCmh5oOOSmsdw" memberEnd="_X9lx8s-YEfCmh5oOOSmsdw _X9lx88-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X9lx8M-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X9lx8c-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X9lx8s-YEfCmh5oOOSmsdw" name="createevent" type="_rT4GoM-XEfCmh5oOOSmsdw" association="_X9lK4M-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X9lx88-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_X9lK4M-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aBVLUM-YEfCmh5oOOSmsdw" memberEnd="_aBVyYc-YEfCmh5oOOSmsdw _aBVyYs-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aBVLUc-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aBVyYM-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aBVyYc-YEfCmh5oOOSmsdw" name="createstudentunion" type="_ubL10M-XEfCmh5oOOSmsdw" association="_aBVLUM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aBVyYs-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_aBVLUM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gbYdoM-YEfCmh5oOOSmsdw" memberEnd="_gbaS0s-YEfCmh5oOOSmsdw _gbaS08-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbaS0M-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gbaS0c-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gbaS0s-YEfCmh5oOOSmsdw" name="applytobecandidate" type="_spenoM-XEfCmh5oOOSmsdw" association="_gbYdoM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gbaS08-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_gbYdoM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hSpc0M-YEfCmh5oOOSmsdw" memberEnd="_hSqD4s-YEfCmh5oOOSmsdw _hSqD48-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hSqD4M-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hSqD4c-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hSqD4s-YEfCmh5oOOSmsdw" name="updateunion" type="_u2FpIM-XEfCmh5oOOSmsdw" association="_hSpc0M-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hSqD48-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_hSpc0M-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iKrRAM-YEfCmh5oOOSmsdw" memberEnd="_iKr4Es-YEfCmh5oOOSmsdw _iKsfIM-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iKr4EM-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iKr4Ec-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iKr4Es-YEfCmh5oOOSmsdw" name="voteforcandidate" type="_uIyeQM-XEfCmh5oOOSmsdw" association="_iKrRAM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iKsfIM-YEfCmh5oOOSmsdw" name="student" type="_cAussM-XEfCmh5oOOSmsdw" association="_iKrRAM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_y6IQ4M-YEfCmh5oOOSmsdw" memberEnd="_y6I38M-YEfCmh5oOOSmsdw _y6I38c-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y6IQ4c-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y6IQ4s-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y6I38M-YEfCmh5oOOSmsdw" name="deletesociety" type="_zngwwM-XEfCmh5oOOSmsdw" association="_y6IQ4M-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y6I38c-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_y6IQ4M-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zVIK0M-YEfCmh5oOOSmsdw" memberEnd="_zVIx4s-YEfCmh5oOOSmsdw _zVJY8M-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zVIx4M-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zVIx4c-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zVIx4s-YEfCmh5oOOSmsdw" name="updatesociety" type="_zLfjIM-XEfCmh5oOOSmsdw" association="_zVIK0M-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zVJY8M-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_zVIK0M-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_z8magM-YEfCmh5oOOSmsdw" memberEnd="_z8nBkc-YEfCmh5oOOSmsdw _z8nBks-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z8magc-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z8nBkM-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z8nBkc-YEfCmh5oOOSmsdw" name="createsociety" type="_0FLkMM-XEfCmh5oOOSmsdw" association="_z8magM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z8nBks-YEfCmh5oOOSmsdw" name="union officer" type="_aLaJ0M-XEfCmh5oOOSmsdw" association="_z8magM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4A1sAM-YEfCmh5oOOSmsdw" memberEnd="_4A2TEs-YEfCmh5oOOSmsdw _4A2TE8-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4A2TEM-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4A2TEc-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4A2TEs-YEfCmh5oOOSmsdw" name="updatesociety" type="_zLfjIM-XEfCmh5oOOSmsdw" association="_4A1sAM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4A2TE8-YEfCmh5oOOSmsdw" name="society leader" type="_e3JgMM-XEfCmh5oOOSmsdw" association="_4A1sAM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4cPOkM-YEfCmh5oOOSmsdw" memberEnd="_4cQcsc-YEfCmh5oOOSmsdw _4cQcss-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4cP1oM-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4cQcsM-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4cQcsc-YEfCmh5oOOSmsdw" name="createsociety" type="_0FLkMM-XEfCmh5oOOSmsdw" association="_4cPOkM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4cQcss-YEfCmh5oOOSmsdw" name="society leader" type="_e3JgMM-XEfCmh5oOOSmsdw" association="_4cPOkM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5gtjUM-YEfCmh5oOOSmsdw" memberEnd="_5guKYs-YEfCmh5oOOSmsdw _5guKY8-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5guKYM-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5guKYc-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5guKYs-YEfCmh5oOOSmsdw" name="deletesociety" type="_zngwwM-XEfCmh5oOOSmsdw" association="_5gtjUM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5guKY8-YEfCmh5oOOSmsdw" name="society leader" type="_e3JgMM-XEfCmh5oOOSmsdw" association="_5gtjUM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7AhwQM-YEfCmh5oOOSmsdw" memberEnd="_7AiXUs-YEfCmh5oOOSmsdw _7AiXU8-YEfCmh5oOOSmsdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7AiXUM-YEfCmh5oOOSmsdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7AiXUc-YEfCmh5oOOSmsdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7AiXUs-YEfCmh5oOOSmsdw" name="voteforcandidate" type="_uIyeQM-XEfCmh5oOOSmsdw" association="_7AhwQM-YEfCmh5oOOSmsdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7AiXU8-YEfCmh5oOOSmsdw" name="society leader" type="_e3JgMM-XEfCmh5oOOSmsdw" association="_7AhwQM-YEfCmh5oOOSmsdw"/>
+  </packagedElement>
+</uml:Model>
