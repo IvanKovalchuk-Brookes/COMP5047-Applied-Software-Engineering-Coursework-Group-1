@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fvpz0K6NEfCIm_2NISYTiQ" name="CW Activity Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_f1TI0K6NEfCIm_2NISYTiQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_vX9TgK6PEfCIm_2NISYTiQ" name="Enter Card Payment Details" visibility="protected" node="_UH8lUK6XEfCIm_2NISYTiQ _HKKU4K7GEfCIm_2NISYTiQ _RpxD8LN_EfCbWYq3PSilSw _fwwMwLN_EfCbWYq3PSilSw _s_OZMLN_EfCbWYq3PSilSw _rk3ckLOWEfCbWYq3PSilSw _EqQzsLOXEfCbWYq3PSilSw _hXJ18LOXEfCbWYq3PSilSw _-ATAoLOXEfCbWYq3PSilSw _e2dlYLOYEfCbWYq3PSilSw _EYomQLOZEfCbWYq3PSilSw _Ip_twLOZEfCbWYq3PSilSw _KL7akLOZEfCbWYq3PSilSw _2gXkALOaEfCbWYq3PSilSw" group="_PCz3gK6XEfCIm_2NISYTiQ _MxsL0K7LEfCIm_2NISYTiQ _u0DK0LOVEfCbWYq3PSilSw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d163wLN_EfCbWYq3PSilSw" name="Presses &quot;Pay Now&quot;" inPartition="_PCz3gK6XEfCIm_2NISYTiQ" target="_RpxD8LN_EfCbWYq3PSilSw" source="_HKKU4K7GEfCIm_2NISYTiQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_q2B4ELN_EfCbWYq3PSilSw" inPartition="_PCz3gK6XEfCIm_2NISYTiQ" target="_fwwMwLN_EfCbWYq3PSilSw" source="_RpxD8LN_EfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wXbMoLOWEfCbWYq3PSilSw" name="Invalid" target="_rk3ckLOWEfCbWYq3PSilSw" source="_s_OZMLN_EfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KmwAQLOXEfCbWYq3PSilSw" name="Valid" inPartition="_u0DK0LOVEfCbWYq3PSilSw" target="_EqQzsLOXEfCbWYq3PSilSw" source="_s_OZMLN_EfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OpJCMLOYEfCbWYq3PSilSw" target="_s_OZMLN_EfCbWYq3PSilSw" source="_fwwMwLN_EfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Vf--MLOYEfCbWYq3PSilSw" inPartition="_PCz3gK6XEfCIm_2NISYTiQ" target="_fwwMwLN_EfCbWYq3PSilSw" source="_rk3ckLOWEfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_e4Of8LOYEfCbWYq3PSilSw" target="_e2dlYLOYEfCbWYq3PSilSw" source="_EqQzsLOXEfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PRsagLOZEfCbWYq3PSilSw" name="Declined" target="_EYomQLOZEfCbWYq3PSilSw" source="_-ATAoLOXEfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TYyLsLOZEfCbWYq3PSilSw" target="_Ip_twLOZEfCbWYq3PSilSw" source="_KL7akLOZEfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_s6oY0LOaEfCbWYq3PSilSw" name="Approved" inPartition="_u0DK0LOVEfCbWYq3PSilSw" target="_KL7akLOZEfCbWYq3PSilSw" source="_-ATAoLOXEfCbWYq3PSilSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2hSxELOaEfCbWYq3PSilSw" inPartition="_MxsL0K7LEfCIm_2NISYTiQ" target="_2gXkALOaEfCbWYq3PSilSw" source="_hXJ18LOXEfCbWYq3PSilSw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_PCz3gK6XEfCIm_2NISYTiQ" name="User (Student)" node="_HKKU4K7GEfCIm_2NISYTiQ _fwwMwLN_EfCbWYq3PSilSw _rk3ckLOWEfCbWYq3PSilSw _EYomQLOZEfCbWYq3PSilSw _Ip_twLOZEfCbWYq3PSilSw" edge="_d163wLN_EfCbWYq3PSilSw _q2B4ELN_EfCbWYq3PSilSw _Vf--MLOYEfCbWYq3PSilSw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_MxsL0K7LEfCIm_2NISYTiQ" name="Payment Gateway" node="_hXJ18LOXEfCbWYq3PSilSw _2gXkALOaEfCbWYq3PSilSw" edge="_2hSxELOaEfCbWYq3PSilSw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_0hlOALOYEfCbWYq3PSilSw">
+        <body>Approved</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_6pfncLOYEfCbWYq3PSilSw">
+        <body>Declined</body>
+      </ownedComment>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_u0DK0LOVEfCbWYq3PSilSw" name="USU Student App" node="_RpxD8LN_EfCbWYq3PSilSw _s_OZMLN_EfCbWYq3PSilSw _EqQzsLOXEfCbWYq3PSilSw _-ATAoLOXEfCbWYq3PSilSw _KL7akLOZEfCbWYq3PSilSw" edge="_KmwAQLOXEfCbWYq3PSilSw _s6oY0LOaEfCbWYq3PSilSw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_UH8lUK6XEfCIm_2NISYTiQ" name=""/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HKKU4K7GEfCIm_2NISYTiQ" name="Start" outgoing="_d163wLN_EfCbWYq3PSilSw" inPartition="_PCz3gK6XEfCIm_2NISYTiQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_RpxD8LN_EfCbWYq3PSilSw" name="Display payment form" incoming="_d163wLN_EfCbWYq3PSilSw" outgoing="_q2B4ELN_EfCbWYq3PSilSw" inPartition="_u0DK0LOVEfCbWYq3PSilSw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_fwwMwLN_EfCbWYq3PSilSw" name="Enter Card Details" incoming="_q2B4ELN_EfCbWYq3PSilSw _Vf--MLOYEfCbWYq3PSilSw" outgoing="_OpJCMLOYEfCbWYq3PSilSw" inPartition="_PCz3gK6XEfCIm_2NISYTiQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_s_OZMLN_EfCbWYq3PSilSw" name="Validate Input" incoming="_OpJCMLOYEfCbWYq3PSilSw" outgoing="_wXbMoLOWEfCbWYq3PSilSw _KmwAQLOXEfCbWYq3PSilSw" inPartition="_u0DK0LOVEfCbWYq3PSilSw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rk3ckLOWEfCbWYq3PSilSw" name="Show error message Re-enter details" incoming="_wXbMoLOWEfCbWYq3PSilSw" outgoing="_Vf--MLOYEfCbWYq3PSilSw" inPartition="_PCz3gK6XEfCIm_2NISYTiQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EqQzsLOXEfCbWYq3PSilSw" name="Send data to payment gateway" incoming="_KmwAQLOXEfCbWYq3PSilSw" outgoing="_e4Of8LOYEfCbWYq3PSilSw" inPartition="_u0DK0LOVEfCbWYq3PSilSw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hXJ18LOXEfCbWYq3PSilSw" name="Verify card + authorise" outgoing="_2hSxELOaEfCbWYq3PSilSw" inPartition="_MxsL0K7LEfCIm_2NISYTiQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-ATAoLOXEfCbWYq3PSilSw" name="Payment result received" outgoing="_PRsagLOZEfCbWYq3PSilSw _s6oY0LOaEfCbWYq3PSilSw" inPartition="_u0DK0LOVEfCbWYq3PSilSw"/>
+    <node xmi:type="uml:ReadSelfAction" xmi:id="_e2dlYLOYEfCbWYq3PSilSw" name="this" incoming="_e4Of8LOYEfCbWYq3PSilSw">
+      <result xmi:type="uml:OutputPin" xmi:id="_e2uEELOYEfCbWYq3PSilSw" name="result">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e2uEEbOYEfCbWYq3PSilSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e2uEErOYEfCbWYq3PSilSw" value="1"/>
+      </result>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EYomQLOZEfCbWYq3PSilSw" name="Show failure message, Allow retry" incoming="_PRsagLOZEfCbWYq3PSilSw" inPartition="_PCz3gK6XEfCIm_2NISYTiQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Ip_twLOZEfCbWYq3PSilSw" name="End" incoming="_TYyLsLOZEfCbWYq3PSilSw" inPartition="_PCz3gK6XEfCIm_2NISYTiQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KL7akLOZEfCbWYq3PSilSw" name="Display confirmation" incoming="_s6oY0LOaEfCbWYq3PSilSw" outgoing="_TYyLsLOZEfCbWYq3PSilSw" inPartition="_u0DK0LOVEfCbWYq3PSilSw"/>
+    <node xmi:type="uml:ValueSpecificationAction" xmi:id="_2gXkALOaEfCbWYq3PSilSw" name="" incoming="_2hSxELOaEfCbWYq3PSilSw" inPartition="_MxsL0K7LEfCIm_2NISYTiQ"/>
+  </packagedElement>
+</uml:Model>
