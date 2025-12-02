@@ -26,4 +26,5 @@ Next Meeting:
 3.	(FULL PRACTICAL) Implement the architecture diagram together. Connect the system together
  
 Notes/Comments:
+
 N/A
