@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_CF0x0K3VEfCTW7vLqQn9xw" name="Coursework Use Case">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_CLFFQK3VEfCTW7vLqQn9xw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EPXUYK3ZEfCTW7vLqQn9xw" name="Student ">
+    <generalization xmi:type="uml:Generalization" xmi:id="_oZUYkK3uEfCTW7vLqQn9xw" general="_WD5gcK3uEfCTW7vLqQn9xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vcvC4K3sEfCTW7vLqQn9xw" name="Registration System" useCase="_WD5gcK3uEfCTW7vLqQn9xw _rcDGwK4PEfCTW7vLqQn9xw _t6dC4K4PEfCTW7vLqQn9xw _wfB4cK4PEfCTW7vLqQn9xw _1KFSUK4PEfCTW7vLqQn9xw _207DgK4PEfCTW7vLqQn9xw _4U-hAK4PEfCTW7vLqQn9xw">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WD5gcK3uEfCTW7vLqQn9xw" name="Register" subject="_vcvC4K3sEfCTW7vLqQn9xw">
+      <include xmi:type="uml:Include" xmi:id="_BpxtMK4QEfCTW7vLqQn9xw" name="" visibility="public" addition="_rcDGwK4PEfCTW7vLqQn9xw"/>
+      <include xmi:type="uml:Include" xmi:id="_MToAwK4QEfCTW7vLqQn9xw" addition="_t6dC4K4PEfCTW7vLqQn9xw">
+        <name xsi:nil="true"/>
+      </include>
+      <include xmi:type="uml:Include" xmi:id="_NiUBcK4QEfCTW7vLqQn9xw" addition="_wfB4cK4PEfCTW7vLqQn9xw">
+        <name xsi:nil="true"/>
+      </include>
+      <include xmi:type="uml:Include" xmi:id="_OUAkIK4QEfCTW7vLqQn9xw" addition="_1KFSUK4PEfCTW7vLqQn9xw">
+        <name xsi:nil="true"/>
+      </include>
+      <include xmi:type="uml:Include" xmi:id="_O4qwYK4QEfCTW7vLqQn9xw" addition="_207DgK4PEfCTW7vLqQn9xw">
+        <name xsi:nil="true"/>
+      </include>
+      <include xmi:type="uml:Include" xmi:id="_PqDKAK4QEfCTW7vLqQn9xw" addition="_4U-hAK4PEfCTW7vLqQn9xw">
+        <name xsi:nil="true"/>
+      </include>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_rcDGwK4PEfCTW7vLqQn9xw" name="Enter Username" subject="_vcvC4K3sEfCTW7vLqQn9xw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_t6dC4K4PEfCTW7vLqQn9xw" name="Enter Password" subject="_vcvC4K3sEfCTW7vLqQn9xw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_wfB4cK4PEfCTW7vLqQn9xw" name="Enter email address" subject="_vcvC4K3sEfCTW7vLqQn9xw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1KFSUK4PEfCTW7vLqQn9xw" name="Enter telephone number" subject="_vcvC4K3sEfCTW7vLqQn9xw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_207DgK4PEfCTW7vLqQn9xw" name="Enter shipping address" subject="_vcvC4K3sEfCTW7vLqQn9xw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4U-hAK4PEfCTW7vLqQn9xw" name="Enter payment card details" subject="_vcvC4K3sEfCTW7vLqQn9xw"/>
+  </packagedElement>
+</uml:Model>
