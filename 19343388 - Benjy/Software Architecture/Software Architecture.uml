@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_rslJwMlxEfCw25O-hShO8w" name="Software Architecture">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_rxk-gMlxEfCw25O-hShO8w">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Component" xmi:id="_vtAUIMrjEfCNfqFYXcyYrQ" name="USU Student App">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_81GK8MsTEfCNfqFYXcyYrQ" name="Port13" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TLj1oMsfEfCNfqFYXcyYrQ" name="Port14" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_QiMxQMsgEfCNfqFYXcyYrQ" name="Port14" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_t2DF0MsgEfCNfqFYXcyYrQ" name="Port14" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__bc2QMsgEfCNfqFYXcyYrQ" name="Port15" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_h8j54MshEfCNfqFYXcyYrQ" name="Port14" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_icFugMshEfCNfqFYXcyYrQ" name="Port15" aggregation="composite"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="__6olEMr-EfCNfqFYXcyYrQ" name="StudentUI">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_QIDwwMsREfCNfqFYXcyYrQ" name="Port1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Xv8vMMsREfCNfqFYXcyYrQ" name="Port2" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_5fs2EMsLEfCNfqFYXcyYrQ" name="StudentLogin">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_RLojEMsQEfCNfqFYXcyYrQ" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_AyI3AMsOEfCNfqFYXcyYrQ" name="EnrollSociety">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_dmCY0MsREfCNfqFYXcyYrQ" name="Port1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_ukjIYMsREfCNfqFYXcyYrQ" name="Port2" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Dcu1AMsOEfCNfqFYXcyYrQ" name="QuitSociety">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_0BBYIMsREfCNfqFYXcyYrQ" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_EvEmoMsOEfCNfqFYXcyYrQ" name="InitiateSociety">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_5cFSoMsREfCNfqFYXcyYrQ" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_G6IwAMsOEfCNfqFYXcyYrQ" name="EventParticipation">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_B67HMMsSEfCNfqFYXcyYrQ" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_IswkMMsOEfCNfqFYXcyYrQ" name="NotificationHandler">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_GnVzAMsSEfCNfqFYXcyYrQ" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_tcRYEMsZEfCNfqFYXcyYrQ" client="_vtAUIMrjEfCNfqFYXcyYrQ" supplier="_4iixcMrjEfCNfqFYXcyYrQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_4iixcMrjEfCNfqFYXcyYrQ" name="Cloud System">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_osEJsMsfEfCNfqFYXcyYrQ" name="CheckPermission"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_W87eMMsOEfCNfqFYXcyYrQ" name="AuthenticationManager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_37mg4MsdEfCNfqFYXcyYrQ" client="_W87eMMsOEfCNfqFYXcyYrQ"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_95LSkMsdEfCNfqFYXcyYrQ" client="_W87eMMsOEfCNfqFYXcyYrQ" supplier="_94tYgMsdEfCNfqFYXcyYrQ" contract="_94tYgMsdEfCNfqFYXcyYrQ"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_osj48MsfEfCNfqFYXcyYrQ" client="_W87eMMsOEfCNfqFYXcyYrQ" supplier="_osEJsMsfEfCNfqFYXcyYrQ" contract="_osEJsMsfEfCNfqFYXcyYrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_ArTZwMsPEfCNfqFYXcyYrQ" name="EnrollSociety">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Hz5Z0MsfEfCNfqFYXcyYrQ" client="_ArTZwMsPEfCNfqFYXcyYrQ" supplier="_HzZqkMsfEfCNfqFYXcyYrQ" contract="_HzZqkMsfEfCNfqFYXcyYrQ"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_vpeAsMsfEfCNfqFYXcyYrQ" client="_ArTZwMsPEfCNfqFYXcyYrQ" supplier="_osEJsMsfEfCNfqFYXcyYrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_GW4cgMsPEfCNfqFYXcyYrQ" name="QuitSociety">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_7N2fUMseEfCNfqFYXcyYrQ" client="_GW4cgMsPEfCNfqFYXcyYrQ" supplier="_7NVh8MseEfCNfqFYXcyYrQ" contract="_7NVh8MseEfCNfqFYXcyYrQ"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_yP3bMMsfEfCNfqFYXcyYrQ" client="_GW4cgMsPEfCNfqFYXcyYrQ" supplier="_osEJsMsfEfCNfqFYXcyYrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_JUCKIMsPEfCNfqFYXcyYrQ" name="SocietyManagement">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8wUiMMsfEfCNfqFYXcyYrQ" client="_JUCKIMsPEfCNfqFYXcyYrQ" supplier="_8vv6cMsfEfCNfqFYXcyYrQ" contract="_8vv6cMsfEfCNfqFYXcyYrQ"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_fJ9E0MsgEfCNfqFYXcyYrQ" client="_JUCKIMsPEfCNfqFYXcyYrQ" supplier="_osEJsMsfEfCNfqFYXcyYrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_N9x8cMsPEfCNfqFYXcyYrQ" name="EventParticipation">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_pZ98EMsgEfCNfqFYXcyYrQ" client="_N9x8cMsPEfCNfqFYXcyYrQ" supplier="_pZZUUMsgEfCNfqFYXcyYrQ" contract="_pZZUUMsgEfCNfqFYXcyYrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_QoeBEMsPEfCNfqFYXcyYrQ" name="UserProfile">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_XtDY8MshEfCNfqFYXcyYrQ" client="_QoeBEMsPEfCNfqFYXcyYrQ" supplier="_XsbG0MshEfCNfqFYXcyYrQ" contract="_XsbG0MshEfCNfqFYXcyYrQ"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_uoeL0MshEfCNfqFYXcyYrQ" client="_QoeBEMsPEfCNfqFYXcyYrQ" supplier="_un1SoMshEfCNfqFYXcyYrQ" contract="_un1SoMshEfCNfqFYXcyYrQ"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_0vbjAMshEfCNfqFYXcyYrQ" client="_QoeBEMsPEfCNfqFYXcyYrQ" supplier="_osEJsMsfEfCNfqFYXcyYrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_TtR14MsPEfCNfqFYXcyYrQ" name="Notification">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_6BfvAMsgEfCNfqFYXcyYrQ" client="_TtR14MsPEfCNfqFYXcyYrQ" supplier="_6A55IMsgEfCNfqFYXcyYrQ" contract="_6A55IMsgEfCNfqFYXcyYrQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Hl4e4MsSEfCNfqFYXcyYrQ" name=""/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_vmSSMMsREfCNfqFYXcyYrQ" name=""/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_-VuQMMsTEfCNfqFYXcyYrQ" client="_ukjIYMsREfCNfqFYXcyYrQ" supplier="_81GK8MsTEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_BUH7AMsUEfCNfqFYXcyYrQ" client="_81GK8MsTEfCNfqFYXcyYrQ" supplier="_vmSSMMsREfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_OxR08MsaEfCNfqFYXcyYrQ" client="_vmSSMMsREfCNfqFYXcyYrQ" supplier="_rslJwMlxEfCw25O-hShO8w"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_94tYgMsdEfCNfqFYXcyYrQ" name="Authenticate"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_HxDWoMseEfCNfqFYXcyYrQ" client="_dmCY0MsREfCNfqFYXcyYrQ" supplier="_94tYgMsdEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_I9qTsMseEfCNfqFYXcyYrQ" client="_RLojEMsQEfCNfqFYXcyYrQ" supplier="_94tYgMsdEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_7NVh8MseEfCNfqFYXcyYrQ" name="LeaveSociety"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_HzZqkMsfEfCNfqFYXcyYrQ" name="EnrollForSociety"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_N6DfwMsfEfCNfqFYXcyYrQ" client="_vmSSMMsREfCNfqFYXcyYrQ" supplier="_HzZqkMsfEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Um7AYMsfEfCNfqFYXcyYrQ" client="_0BBYIMsREfCNfqFYXcyYrQ" supplier="_TLj1oMsfEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_VuH5AMsfEfCNfqFYXcyYrQ" name=""/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_YRLEkMsfEfCNfqFYXcyYrQ" client="_TLj1oMsfEfCNfqFYXcyYrQ" supplier="_VuH5AMsfEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_b1ff4MsfEfCNfqFYXcyYrQ" client="_VuH5AMsfEfCNfqFYXcyYrQ" supplier="_7NVh8MseEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_8vv6cMsfEfCNfqFYXcyYrQ" name="RequestInitiateSociety"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_SJHrwMsgEfCNfqFYXcyYrQ" client="_5cFSoMsREfCNfqFYXcyYrQ" supplier="_QiMxQMsgEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_TGGRYMsgEfCNfqFYXcyYrQ" name=""/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_V6gSsMsgEfCNfqFYXcyYrQ" client="_QiMxQMsgEfCNfqFYXcyYrQ" supplier="_TGGRYMsgEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_YevKAMsgEfCNfqFYXcyYrQ" client="_TGGRYMsgEfCNfqFYXcyYrQ" supplier="_8vv6cMsfEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_DE0ugMsSEfCNfqFYXcyYrQ" name=""/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_pZZUUMsgEfCNfqFYXcyYrQ" name="ManageEventParticipation"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_u2WsQMsgEfCNfqFYXcyYrQ" client="_B67HMMsSEfCNfqFYXcyYrQ" supplier="_t2DF0MsgEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_vsqpMMsgEfCNfqFYXcyYrQ" client="_t2DF0MsgEfCNfqFYXcyYrQ" supplier="_DE0ugMsSEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_w32C4MsgEfCNfqFYXcyYrQ" client="_DE0ugMsSEfCNfqFYXcyYrQ" supplier="_pZZUUMsgEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_6A55IMsgEfCNfqFYXcyYrQ" name="SendUserNotification"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ASiPQMshEfCNfqFYXcyYrQ" client="_GnVzAMsSEfCNfqFYXcyYrQ" supplier="__bc2QMsgEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Ax5EwMshEfCNfqFYXcyYrQ" client="__bc2QMsgEfCNfqFYXcyYrQ" supplier="_Hl4e4MsSEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_CclE8MshEfCNfqFYXcyYrQ" client="_Hl4e4MsSEfCNfqFYXcyYrQ" supplier="_6A55IMsgEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XsbG0MshEfCNfqFYXcyYrQ" name="RetrieveUserProfile"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ZNu70MsREfCNfqFYXcyYrQ" name=""/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_StZbUMsREfCNfqFYXcyYrQ" name=""/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_jyxNkMshEfCNfqFYXcyYrQ" client="_Xv8vMMsREfCNfqFYXcyYrQ" supplier="_h8j54MshEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_kQ5UAMshEfCNfqFYXcyYrQ" client="_QIDwwMsREfCNfqFYXcyYrQ" supplier="_icFugMshEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_k6-y0MshEfCNfqFYXcyYrQ" client="_h8j54MshEfCNfqFYXcyYrQ" supplier="_ZNu70MsREfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_sEJN4MshEfCNfqFYXcyYrQ" client="_icFugMshEfCNfqFYXcyYrQ" supplier="_StZbUMsREfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_t9WLMMshEfCNfqFYXcyYrQ" client="_ZNu70MsREfCNfqFYXcyYrQ" supplier="_XsbG0MshEfCNfqFYXcyYrQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_un1SoMshEfCNfqFYXcyYrQ" name="UpdateUserProfile"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_zLjVcMshEfCNfqFYXcyYrQ" client="_StZbUMsREfCNfqFYXcyYrQ" supplier="_un1SoMshEfCNfqFYXcyYrQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ptk5wMsOEfCNfqFYXcyYrQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ptn9EMsOEfCNfqFYXcyYrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Service xmi:id="_tq6SAMsOEfCNfqFYXcyYrQ" base_Component="_W87eMMsOEfCNfqFYXcyYrQ"/>
+  <standard:Service xmi:id="_Cuq_sMsPEfCNfqFYXcyYrQ" base_Component="_ArTZwMsPEfCNfqFYXcyYrQ"/>
+  <standard:Service xmi:id="_IdEF4MsPEfCNfqFYXcyYrQ" base_Component="_GW4cgMsPEfCNfqFYXcyYrQ"/>
+  <standard:Service xmi:id="_MEbOIMsPEfCNfqFYXcyYrQ" base_Component="_JUCKIMsPEfCNfqFYXcyYrQ"/>
+  <standard:Service xmi:id="_QCHywMsPEfCNfqFYXcyYrQ" base_Component="_N9x8cMsPEfCNfqFYXcyYrQ"/>
+  <standard:Service xmi:id="_Sn47IMsPEfCNfqFYXcyYrQ" base_Component="_QoeBEMsPEfCNfqFYXcyYrQ"/>
+  <standard:Service xmi:id="_VcfwwMsPEfCNfqFYXcyYrQ" base_Component="_TtR14MsPEfCNfqFYXcyYrQ"/>
+</xmi:XMI>
