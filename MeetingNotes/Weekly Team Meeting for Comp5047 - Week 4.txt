@@ -23,4 +23,5 @@ Next Meeting:
 1.	Review each piece of work outlined in todays agenda.
 2.	Discuss the next segment - Architectural design
  
+
 Notes/Comments:
