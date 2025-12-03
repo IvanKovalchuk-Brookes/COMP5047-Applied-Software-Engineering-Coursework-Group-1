@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Bv9AkM_kEfCQgrTXf_s44w" name="ActivityDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_B5LOAM_kEfCQgrTXf_s44w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_Kjzb0M_kEfCQgrTXf_s44w" name="Activity2" node="_XkfuIM_oEfCL74BmdiwOqw _YrzUcM_oEfCL74BmdiwOqw _dkndgM_oEfCL74BmdiwOqw _e09rEM_oEfCL74BmdiwOqw _oA0WoM_oEfCL74BmdiwOqw _s3FiAM_oEfCL74BmdiwOqw _xCAqUM_oEfCL74BmdiwOqw _yr6AUM_oEfCL74BmdiwOqw _0lsMcM_oEfCL74BmdiwOqw _23G1cM_oEfCL74BmdiwOqw _5b-l8M_oEfCL74BmdiwOqw _6ZG8kM_oEfCL74BmdiwOqw" group="_Ua0AYM_oEfCL74BmdiwOqw _WFRXEM_oEfCL74BmdiwOqw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_toeisM_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw" target="_YrzUcM_oEfCL74BmdiwOqw" source="_s3FiAM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uA5pwM_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw" target="_dkndgM_oEfCL74BmdiwOqw" source="_YrzUcM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ub7_8M_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw" target="_e09rEM_oEfCL74BmdiwOqw" source="_dkndgM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_u21zQM_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw" target="_oA0WoM_oEfCL74BmdiwOqw" source="_e09rEM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_v-ND8M_oEfCL74BmdiwOqw" target="_XkfuIM_oEfCL74BmdiwOqw" source="_v-WN4M_oEfCL74BmdiwOqw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_v-fX0M_oEfCL74BmdiwOqw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_v-fX0c_oEfCL74BmdiwOqw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7Wz68M_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw" target="_yr6AUM_oEfCL74BmdiwOqw" source="_xCAqUM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7wLdMM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw" target="_5b-l8M_oEfCL74BmdiwOqw" source="_yr6AUM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8I5fMM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw" target="_0lsMcM_oEfCL74BmdiwOqw" source="_5b-l8M_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8ikjcM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw" target="_23G1cM_oEfCL74BmdiwOqw" source="_0lsMcM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_83DlsM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw" target="_6ZG8kM_oEfCL74BmdiwOqw" source="_23G1cM_oEfCL74BmdiwOqw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-SGAUM_oEfCL74BmdiwOqw" target="_dkndgM_oEfCL74BmdiwOqw" source="_5b-l8M_oEfCL74BmdiwOqw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Ua0AYM_oEfCL74BmdiwOqw" name="Society Leader App" node="_YrzUcM_oEfCL74BmdiwOqw _dkndgM_oEfCL74BmdiwOqw _e09rEM_oEfCL74BmdiwOqw _oA0WoM_oEfCL74BmdiwOqw _s3FiAM_oEfCL74BmdiwOqw" edge="_toeisM_oEfCL74BmdiwOqw _uA5pwM_oEfCL74BmdiwOqw _ub7_8M_oEfCL74BmdiwOqw _u21zQM_oEfCL74BmdiwOqw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_WFRXEM_oEfCL74BmdiwOqw" name="USU System Backend" node="_xCAqUM_oEfCL74BmdiwOqw _yr6AUM_oEfCL74BmdiwOqw _0lsMcM_oEfCL74BmdiwOqw _23G1cM_oEfCL74BmdiwOqw _5b-l8M_oEfCL74BmdiwOqw _6ZG8kM_oEfCL74BmdiwOqw" edge="_7Wz68M_oEfCL74BmdiwOqw _7wLdMM_oEfCL74BmdiwOqw _8I5fMM_oEfCL74BmdiwOqw _8ikjcM_oEfCL74BmdiwOqw _83DlsM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_XkfuIM_oEfCL74BmdiwOqw" name="Event Data" incoming="_v-ND8M_oEfCL74BmdiwOqw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_XkhjUM_oEfCL74BmdiwOqw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YrzUcM_oEfCL74BmdiwOqw" name="Open create event screen" incoming="_toeisM_oEfCL74BmdiwOqw" outgoing="_uA5pwM_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dkndgM_oEfCL74BmdiwOqw" name="Enter event Details" incoming="_uA5pwM_oEfCL74BmdiwOqw _-SGAUM_oEfCL74BmdiwOqw" outgoing="_ub7_8M_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_e09rEM_oEfCL74BmdiwOqw" name="Upload Promotional Media" incoming="_ub7_8M_oEfCL74BmdiwOqw" outgoing="_u21zQM_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oA0WoM_oEfCL74BmdiwOqw" name="Submit Event " incoming="_u21zQM_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_v-WN4M_oEfCL74BmdiwOqw" name="OutputPin1" outgoing="_v-ND8M_oEfCL74BmdiwOqw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_v-XcAM_oEfCL74BmdiwOqw" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:InitialNode" xmi:id="_s3FiAM_oEfCL74BmdiwOqw" name="InitialNode8" outgoing="_toeisM_oEfCL74BmdiwOqw" inPartition="_Ua0AYM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xCAqUM_oEfCL74BmdiwOqw" name="Receive Event Data" outgoing="_7Wz68M_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yr6AUM_oEfCL74BmdiwOqw" name="Validate Event Data" incoming="_7Wz68M_oEfCL74BmdiwOqw" outgoing="_7wLdMM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0lsMcM_oEfCL74BmdiwOqw" name="Store Event &amp; Media" incoming="_8I5fMM_oEfCL74BmdiwOqw" outgoing="_8ikjcM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_23G1cM_oEfCL74BmdiwOqw" name="Publish Event Update" incoming="_8ikjcM_oEfCL74BmdiwOqw" outgoing="_83DlsM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_5b-l8M_oEfCL74BmdiwOqw" name="DecisionNode18" incoming="_7wLdMM_oEfCL74BmdiwOqw" outgoing="_8I5fMM_oEfCL74BmdiwOqw _-SGAUM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_6ZG8kM_oEfCL74BmdiwOqw" name="ActivityFinalNode19" incoming="_83DlsM_oEfCL74BmdiwOqw" inPartition="_WFRXEM_oEfCL74BmdiwOqw"/>
+  </packagedElement>
+</uml:Model>
